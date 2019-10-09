@@ -1,0 +1,39 @@
+db.students.insert(
+[
+ {name: "Ryan Malone",
+ group: {group_code: "102", group_name: "Year 1 IT"},
+ grades: [{subject_name: "Computer Science", teacher: Emmett Barker", grade: "B", date:"04/08/2018"},
+ grades: {subject_name: "Mathematics", teacher: Johnny Marshall", grade: "C", date: "04/08/2018"}
+]},
+
+ {name: "Adrian Blake",
+ group: {group_code: "103", group_name: Year 1 Mathematics"},
+ grades: [{subject_name: "Mathematics", teacher: "Johnny Marshall", grade: "C", date: "15/08/2018"},
+ grades: {subject_name: "Physics", teacher: "Louise White", grade: "A", date: "15/08/2018"}
+]},
+
+ {name: "Elsie Scott",
+ group: {group_code: "103", group_name: "Year 1 Mathematics"},
+ grades: [{subject_name: "Mathematics", teacher: "Johnny Marshall", grade: "A", date: "15/08/2018"},
+ grades: {subject_name: "Physics", teacher: "Louise White", grade: "A", date: "15/08/2018"}
+]},
+
+ {name: "Alejandro Fisher",
+ group: {group_code: "102", group_name: "Year 1 IT"},
+ grades: [{subject_name: "Physics", teacher: "Louise White", grade: "A", date: "17/08/2018"},
+ grades: {subject_name: "Mathematics" , teacher: "Johnny Marshall", grade: "C", date: "17/08/2018"}
+]},
+
+ {name: "Tom Rowe"},
+ group: {group_code: "105", group_name: "Year 1 Engineering"},
+ grades: [{subject_name: "Computer Science", teacher: "Emmett Barker", grade: "C", date: "11/07/2018"},
+ grades: {subject_name: "Physics", teacher: "Emmett Barker", grade: "B", date: "11/07/2018"}
+]},
+
+ {name: "Emma Pierce"},
+ group: {group_code: "105", group_name: "Year 1 Engineering"},
+ grades:[{subject_name: "Physics", teacher: "Emmett Barker", grade: "B", date: "13/07/2018"},
+ grades{subject_name: "Mathematics", teacher: "Johnny Marshall", grade: "A", date: "13/07/2018"}
+]},
+
+])
